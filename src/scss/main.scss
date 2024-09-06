@@ -1,0 +1,24 @@
+* {
+    font-family: 'Roboto', sans-serif;
+
+    a {
+        &:hover {
+            text-decoration: none;
+            color: rgb(35, 63, 187) !important;
+        }
+    }
+}
+
+.p__mb,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-bottom: 0;
+}
+
+@import "variables";
+@import "mixins";
+@import "general";
+@import "media";
